@@ -32,7 +32,7 @@ colors = {
 }
 
 app.layout = html.Div(children=[
-    html.H1(children='Welcome to prodevanss',style={
+    html.H1(children='Welcome to Prodevans Iventura ',style={
         'textAlign': 'center',
         'color': colors['text']}),
     dcc.Graph(id='project1',
@@ -60,7 +60,7 @@ app.layout = html.Div(children=[
                
             ],
             'layout': {
-                'title': 'Predit Credit card consumption',
+                'title': 'Predict Credit card consumption',
                 'plot_bgcolor': colors['background'],
                 'paper_bgcolor': colors['background'],
                 'font': {
