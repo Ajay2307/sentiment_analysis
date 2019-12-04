@@ -32,7 +32,7 @@ colors = {
 }
 
 app.layout = html.Div(children=[
-    html.H1(children='Welcome to iVentura Platform',style={
+    html.H1(children='Welcome to iVentura - Data Detective',style={
         'textAlign': 'center',
         'color': colors['text']}),
     dcc.Graph(id='project1',
