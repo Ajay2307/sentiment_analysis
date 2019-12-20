@@ -1,6 +1,6 @@
 
 cd /opt/app-root/src/sentiment_analysis
-echo "Pushing the latest code to GitHub"
+echo "Deploying Model...."
 git add -A
 git config --global user.email "ajay.prodevans@gmail.com"
 git config --global user.name "Ajay"
