@@ -16,6 +16,6 @@ ENTRYPOINT ["python"]
 
 CMD ["app.py"]
 
-# CMD ["python", "/app/app.py"]
+### CMD ["python", "/app/app.py"]
 
 
