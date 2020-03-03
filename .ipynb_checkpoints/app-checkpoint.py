@@ -8,7 +8,7 @@ data = pickle.load(infile)
 infile.close()
 #print('im')
 x=data[data==2]
-
+#Hi
 #print(x)
 y=data[data==1]
 z=data[data==0]
@@ -32,7 +32,7 @@ colors = {
 }
 
 app.layout = html.Div(children=[
-    html.H1(children='Welcome to iVentura Platform',style={
+    html.H1(children='Welcome to iVentura',style={
         'textAlign': 'center',
         'color': colors['text']}),
     dcc.Graph(id='project1',
@@ -72,4 +72,4 @@ app.layout = html.Div(children=[
 
 
 if __name__ == '__main__':
-    app.run_server(debug=True,host='0.0.0.0')
+    app.run_server(debug=True,host='0.0.0.0', port=8080)

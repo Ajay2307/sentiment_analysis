@@ -8,7 +8,7 @@ data = pickle.load(infile)
 infile.close()
 #print('im')
 x=data[data==2]
-
+#Hi
 #print(x)
 y=data[data==1]
 z=data[data==0]
