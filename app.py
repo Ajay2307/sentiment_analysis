@@ -6,6 +6,7 @@ import pandas as pd
 infile = open("files/senti_prediction_NB.pickle",'rb')
 data = pickle.load(infile)
 infile.close()
+#hello
 #print('im')
 x=data[data==2]
 #Hi
